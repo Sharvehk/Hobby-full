@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(#4bc400 0%, #33c9cc 50%, #3003fc 100%);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#img{
+   border-radius:50%
+}
+
+p{
+    font-size: 22px;
+   font-family: 'Josefin Sans', sans-serif;     
+}
+
+h1 {
+    text-shadow: 2px 2px #EF6C00;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#menu {
+    z-index: 10;
+    list-style: none;
+    font-family: 'Josefin Sans', sans-serif;
+    float:right; 
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: firebrick;
+    font-size: 20px;
+}
+
+.link{
+    color: aqua; 
+    display: inline;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    
+}
+
+.link{
+    text-decoration:none;
+}
+#welcome{
+    z-index: 9;
+    padding-top: 70px;
+}
+
+.line{
+    background-color:darkgrey;
+    width: 70px;
+    height: 8px;
+    margin:8px auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 42px;
+  text-align: center;
+  text-decoration: My work;
+  display: inline-block;
+  font-size: 16px;
+}
